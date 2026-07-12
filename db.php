@@ -1,11 +1,11 @@
 <?php
-// db.php (Version Définitive Corrigée pour Clever Cloud)
+// db.php (Version Définitive sans erreur de frappe)
 
 $host = '://clever-cloud.com'; 
 $dbname = 'bt3e3ek2thxfoiwadcjb'; 
 $username = 'u7jckigghgxmlglf'; 
 
-// ICI : Mets ton vrai mot de passe en minuscules (celui de ta case Password Clever Cloud)
+// Remplace uniquement le texte ci-dessous par ton vrai mot de passe en minuscules
 $password = 'METS_TON_PASSWORD_ICI';     
 
 try {

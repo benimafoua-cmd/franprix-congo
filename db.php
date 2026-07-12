@@ -1,13 +1,12 @@
 <?php
-// db.php (Version Finale Clever Cloud Connectée)
+// db.php (Version Définitive Corrigée pour Clever Cloud)
 
 $host = '://clever-cloud.com'; 
 $dbname = 'bt3e3ek2thxfoiwadcjb'; 
 $username = 'u7jckigghgxmlglf'; 
 
-// REGARDE SUR TON ÉCRAN DE PC : Descends un tout petit peu la page 
-// pour copier le texte de la case "Password" et colle-le à la place de la ligne ci-dessous
-$password = 'METS_ICI_LE_PASSWORD_DE_TON_ECRAN';     
+// ICI : Mets ton vrai mot de passe en minuscules (celui de ta case Password Clever Cloud)
+$password = 'METS_TON_PASSWORD_ICI';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);

@@ -1,8 +1,10 @@
 <?php
-$host = 'localhost';
-$dbname = 'franprix_brazzaville';
-$username = 'root'; 
-$password = '';     
+// db.php (Version Finale Sécurisée pour Render)
+
+$host = 'fdb1029.awardspace.net'; 
+$dbname = '4774664_site'; 
+$username = '4774664_db'; 
+$password = 'franprix2026';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);

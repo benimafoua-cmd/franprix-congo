@@ -1,6 +1,6 @@
 <?php 
 // confirmation.php
-include('includes/header.php'); 
+include('header.php'); 
 
 // On récupère le numéro de commande généré par traitement_commande.php dans l'URL
 $commande_id = isset($_GET['commande_id']) ? intval($_GET['commande_id']) : 0;
@@ -33,4 +33,4 @@ $commande_id = isset($_GET['commande_id']) ? intval($_GET['commande_id']) : 0;
     </div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>

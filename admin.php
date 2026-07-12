@@ -13,4 +13,4 @@ $commandes = $query->fetchAll();
         </tbody>
     </table>
 </div>
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>

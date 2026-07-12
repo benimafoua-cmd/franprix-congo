@@ -2,7 +2,7 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-include('config/db.php');
+include('db.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Sécurisation des données reçues du formulaire

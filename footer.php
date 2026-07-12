@@ -7,6 +7,6 @@
 
 <!-- LIENS ESSENTIELS : Bootstrap JS et votre panier personnalisé -->
 <script src="https://jsdelivr.net"></script>
-<script src="assets/js/panier.js"></script>
+<script src="panier.js"></script>
 </body>
 </html>

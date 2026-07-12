@@ -1,5 +1,5 @@
 <?php
-// config/db.php
+// db.php
 $host = 'localhost';
 $dbname = 'franprix_brazzaville';
 $username = 'root'; 

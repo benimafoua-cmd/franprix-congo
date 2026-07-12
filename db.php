@@ -1,10 +1,13 @@
 <?php
-// db.php (Version Finale Sécurisée pour Render)
+// db.php (Version Finale Clever Cloud Connectée)
 
-$host = 'fdb1029.awardspace.net'; 
-$dbname = '4774664_site'; 
-$username = '4774664_db'; 
-$password = 'franprix2026';     
+$host = '://clever-cloud.com'; 
+$dbname = 'bt3e3ek2thxfoiwadcjb'; 
+$username = 'u7jckigghgxmlglf'; 
+
+// REGARDE SUR TON ÉCRAN DE PC : Descends un tout petit peu la page 
+// pour copier le texte de la case "Password" et colle-le à la place de la ligne ci-dessous
+$password = 'METS_ICI_LE_PASSWORD_DE_TON_ECRAN';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);

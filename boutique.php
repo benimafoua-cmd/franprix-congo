@@ -1,7 +1,7 @@
 <?php 
 // LIENS D'INCLUSION DES MODULES
-include('config/db.php'); 
-include('includes/header.php'); 
+include('db.php'); 
+include('header.php'); 
 
 $query = $pdo->query("SELECT * FROM produits");
 $produits = $query->fetchAll();
@@ -28,4 +28,4 @@ $produits = $query->fetchAll();
     </div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>

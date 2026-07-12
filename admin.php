@@ -1,4 +1,4 @@
-<?php include('config/db.php'); include('includes/header.php');
+<?php include('db.php'); include('header.php');
 $query = $pdo->query("SELECT c.*, u.nom_complet, u.telephone FROM commandes c JOIN utilisateurs u ON c.id_utilisateur = u.id_utilisateur ORDER BY c.date_commande DESC");
 $commandes = $query->fetchAll();
 ?>

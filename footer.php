@@ -1,13 +1,12 @@
-</div> <!-- Fermeture du container principal -->
-
-<footer style="background-color: #212529; color: white; text-align: center; padding: 25px 0; margin-top: 50px;">
+<footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
-        <p style="margin: 0 0 5px 0;">© 2026 Franprix Congo - Brazzaville & Pointe-Noire.</p>
-        <small style="color: #6c757d;">Partenaire officiel de vos courses au quotidien via Bureau Top.</small>
+        <p class="mb-1">© 2026 Franprix Congo - Brazzaville & Pointe-Noire.</p>
+        <small class="text-muted">Partenaire officiel de vos courses au quotidien.</small>
     </div>
 </footer>
 
-<!-- LIEN DIRECT À LA RACINE -->
-<script src="panier.js"></script>
+<!-- LIENS ESSENTIELS : Bootstrap JS et votre panier personnalisé -->
+<script src="https://jsdelivr.net"></script>
+<script src="assets/js/panier.js"></script>
 </body>
 </html>

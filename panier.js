@@ -1,4 +1,4 @@
-// assets/js/panier.js
+panier.js
 if (!localStorage.getItem('panier_franprix')) {
     localStorage.setItem('panier_franprix', JSON.stringify([]));
 }

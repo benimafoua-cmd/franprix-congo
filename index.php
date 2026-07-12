@@ -1,6 +1,6 @@
 <?php 
-include('config/db.php'); 
-include('includes/header.php'); 
+include('db.php'); 
+include('header.php'); 
 ?>
 <main class="container my-5" style="min-height: 70vh;">
     <section class="p-5 mb-5 rounded-3 text-center text-white shadow-sm bg-franprix">
@@ -12,4 +12,4 @@ include('includes/header.php');
         </div>
     </section>
 </main>
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>

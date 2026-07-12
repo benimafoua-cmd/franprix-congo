@@ -1,6 +1,6 @@
 <?php 
 // panier.php
-include('includes/header.php'); 
+include('header.php'); 
 ?>
 
 <div class="container my-5" style="min-height: 70vh;">
@@ -36,4 +36,4 @@ include('includes/header.php');
     </div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('footer.php'); ?>
